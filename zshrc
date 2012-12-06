@@ -33,7 +33,7 @@ plugins=(git bundler git-flow brew gem heroku rake powder fifigyuri rbenv)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zprofile
-bindkey -v
 
-# export PATH=$HOME/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/usr/local/share/npm/bin
-# eval "$(rbenv init -)"
+bindkey -v
+bindkey '\e[3~' delete-char
+bindkey '^R' history-incremental-search-backward
