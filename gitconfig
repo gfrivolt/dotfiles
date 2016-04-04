@@ -1,0 +1,9 @@
+[alias]
+	co = checkout
+[user]
+	name = George Frivolt
+	email = g.frivolt@netronixgroup.com
+[push]
+	default = simple
+[core]
+	excludesfile = /Users/fifigyuri/.gitignore_global
