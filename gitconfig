@@ -1,5 +1,3 @@
-[alias]
-	co = checkout
 [user]
 	name = George Frivolt
 	email = g.frivolt@netronixgroup.com
@@ -7,3 +5,11 @@
 	default = simple
 [core]
 	excludesfile = /Users/fifigyuri/.gitignore_global
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+  br = branch
+  a = add
+[credential]
+  helper = osxkeychain

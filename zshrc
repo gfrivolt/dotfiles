@@ -4,7 +4,7 @@ ZSH_THEME='robbyrussell'
 
 plugins=(git docker rbenv brew bundler lein taskwarrior tmuxinator ssh-agent)
 
-export PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+export PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin'
 
 source $ZSH/oh-my-zsh.sh
 export LANG=en_US.UTF-8
