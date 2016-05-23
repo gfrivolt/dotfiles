@@ -11,5 +11,6 @@
   co = checkout
   br = branch
   a = add
+  ctags = !.git/hooks/ctags
 [credential]
   helper = osxkeychain
