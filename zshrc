@@ -2,7 +2,7 @@ export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME='robbyrussell'
 
-plugins=(git docker rbenv brew bundler lein taskwarrior tmuxinator ssh-agent)
+plugins=(git docker rbenv brew bundler lein taskwarrior tmuxinator ssh-agent golang)
 
 export PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin'
 
